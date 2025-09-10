@@ -119,9 +119,10 @@
 "use client";
 
 import { useState } from "react";
-import { Phone, Mail, MapPin, Instagram } from "lucide-react";
+import { Phone, Mail, MapPin, Instagram, Facebook } from "lucide-react";
 import emailjs from "emailjs-com";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function ContactPage() {
   const [form, setForm] = useState({ name: "", phone: "", message: "" });
@@ -240,15 +241,31 @@ export default function ContactPage() {
           <ul className="flex flex-col gap-5 text-gray-700 text-lg">
             <li className="flex items-center gap-3 hover:text-gray-500 transition">
               <Phone className="text-gray-500" />
-              +213 555 11 22 33
+              0559 72 29 01
             </li>
             <li className="flex items-center gap-3 hover:text-gray-500 transition">
               <Mail className="text-gray-500" />
               contact@nutrihform.com
             </li>
             <li className="flex items-center gap-3 hover:text-gray-500 transition">
+              <Facebook className="text-gray-500" />
+              <Link
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.facebook.com/nutrihform"
+              >
+                NUTRI H FORM
+              </Link>
+            </li>
+            <li className="flex items-center gap-3 hover:text-gray-500 transition">
               <Instagram className="text-gray-500" />
-              @nutri_h_form
+              <Link
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.instagram.com/harounlahouel"
+              >
+                @nutri_h_form
+              </Link>
             </li>
             <li className="flex items-center gap-3 hover:text-gray-500 transition">
               <MapPin className="text-gray-500" />

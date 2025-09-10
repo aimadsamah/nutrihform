@@ -243,10 +243,10 @@ const Footer = () => {
           <h3 className="text-gray-300 font-semibold mb-2">Contact</h3>
           <div className="flex items-center gap-2 text-gray-400">
             <FaWhatsapp className="text-lg" />
-            <span>0770454948</span>
+            <span>0559 72 29 01</span>
           </div>
           <Link
-            href="https://www.facebook.com"
+            href="https://www.facebook.com/nutrihform"
             target="_blank"
             rel="noopener noreferrer"
             className=" cursor-pointer flex items-center gap-2 text-gray-400"
@@ -255,7 +255,7 @@ const Footer = () => {
             <span>Facebook</span>
           </Link>
           <Link
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/harounlahouel"
             target="_blank"
             rel="noopener noreferrer"
             className=" cursor-pointer flex items-center gap-2 text-gray-400"

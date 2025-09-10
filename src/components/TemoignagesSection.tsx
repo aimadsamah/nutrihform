@@ -8,17 +8,17 @@ const TemoignagesSection = () => {
   const avis = [
     {
       nom: "Ramzi",
-      texte: "Nass tn9oss wana nzid ! hada ga3 machi coach",
+      texte: "n9est 6kg en un mois!",
       photo: "/coach.jpg",
     },
     {
-      nom: "Imad",
-      texte: "Wech 93ed mn lharrache kemlo 3lya lcoach",
+      nom: "Fares",
+      texte: "Coach a la hauteur, je vous le conseille.",
       photo: "/coach.jpg",
     },
     {
       nom: "Ali",
-      texte: "Rani f in amenas mathedrouche meaya",
+      texte: "زدت في الوزن من 61 الى 72 في مدة شهرين",
       photo: "/coach.jpg",
     },
   ];
