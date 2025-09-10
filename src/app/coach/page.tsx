@@ -76,7 +76,7 @@ export default function CoachPage() {
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
           {[
-            "Licence en Sciences du Sport",
+            "Diplôme en Sciences du Sport",
             "Certification en Nutrition Sportive",
             "Spécialisation en Préparation Physique",
             "+100 clients accompagnés",
